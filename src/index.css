@@ -18,7 +18,7 @@
   left: 50%;
   z-index: -1;
   transform: translate(-50%, -50%) rotate(-3deg);
-  background-image: url("./bg.jpeg");
+  background-image: url("/bg.jpeg");
   background-repeat: repeat-x;
   background-size: contain;
 }

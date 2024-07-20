@@ -144,15 +144,15 @@ const Home = () => {
         <NavBar />
         <div className="">
           <h3
-            className={`text-center outline-text relative duration-75 z-20 sm:text-8xl sm:text-green-700 ${rotateClass}`}
+            className={`text-center outline-text relative duration-75 z-20 sm:text-8xl  ${rotateClass}`}
           >
             {counter !== 0 && counter}
           </h3>
-          <div className="flex justify-center -mt-28 items-start sm:mt-0  bg-orange-600">
+          <div className="flex justify-center -mt-28 items-start sm:mt-0 sm:items-end sm:h-[60%] sm:absolute sm:bottom-0 ">
             <img
               src={showImage ? "./cat2.png" : "./cat1.png"}
               alt=""
-              className="w-4/12 absolute bottom-0 left-1/2 -translate-x-1/2 sm:w-full sm:h-full sm:static"
+              className="w-4/12 absolute bottom-0 left-1/2 -translate-x-1/2 sm:-translate-x-0 sm:w-full sm:h-full sm:static"
             />
           </div>
         </div>
